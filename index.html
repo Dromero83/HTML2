@@ -1,12 +1,95 @@
 <!doctype html>
 <html>
+<style>
+body {background-color: lightcyan;}
+h1  {text-align: center;}
+p {text-align: center;}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+table, th, td{
+  border: 2px solid blue;
+  border-collapse: collapse;
+}
+#bluetext {
+  color: darkblue;
+  text-align: center;
+}
+
+</style>
 <head>
 <meta charset="utf-8">
-<title>Second Project</title>
+<title>All things blue</title>
 </head>
 
 <body>
-  <h1>New project baby</h1>
-  <p>This is my second project.</p>
+<h1 style="background-color:darkblue;color:white;text-align:center;">All things blue</h1>
+<p style=font-family:verdana;>My favorite color is blue, so I dedicated a website to it <3</p>
+<p><a href="https://en.wikipedia.org/wiki/Blue">Click here to learn about the color blue!</a></p>
+<p title="only rebels click on this button :("><button onclick="document.location='fool.html'">But whatever you do, don't click this button!</a></button>
+<br>
+<table style="width:100%">
+  <tr>
+    <th>Things that are blue</th>
+    <th>Things that are not blue</th>
+  </tr>
+  <tr>
+    <td>The sky</td>
+    <td>Coca Cola</td>
+  </tr>
+  <tr>
+    <td>The Ocean</td>
+    <td>Orange juice</td>
+  </tr>
+  <tr>
+    <td>1/6th of a rubix cube</td>
+    <td>Shrek</td>
+  </tr>
+  <tr>
+    <td>blueberries</td>
+    <td>The sun</td>
+  </tr>
+  <tr>
+    <td>That song that goes<br>
+    <q>I'm blue da ba de da ba die</q></td>
+    <td>Santa Claus</td>
+  </tr>
+  <tr>
+    <td>1/7th of the rainbow</td>
+    <td>Bees</td>
+  </tr>
+</table>
+<br>
+<img src="images/sapphire.png" alt="sapphire gem">
+<br>
+<h2 id="bluetext">My top 3 favorite shades of blue</h2>
+<ol>
+    <li style="background-color:#3a5fcd;">Royal blue</li>
+    <li style="background-color:#23395d;">Navy blue</li>
+    <li style="background-color:#89cff0;">Baby blue</li>
+</ol>
+<br>
+<h3 id="question">Do you like blue too?</h3>
+
+<button type="button" onclick="myFunction()">I do!</button>
+
+<script>
+function myFunction() {
+  document.getElementById("question").innerHTML = "Yay!";
+}
+</script>
+<br>
+<img src="images/rhapsody_in_blue.jpg" alt="Rhapsody in Blue by VerticalDubai on deviantART.com">
+
+<!--I just hope my 6th grade social studies teacher doesn't see this website, and if she does, hello there~
+Her favorite color was purple, and she was VERY vocal about it. A couple of times she jokingly bullied me for liking the color blue.
+Also weird story, sometime after high school I'm PRETTY sure I walked right past her while I was out, but never confirmed it was her.
+I was wearing my favorite blue jacket, and I heard a voice say "wow, no purple".
+I didn't stop to look or even talk to her; I was far too focused on getting home. I hope she didn't take it as me being rude or ignoring her.
+It might make her happy to know that my second favorite color is, in fact, purple! Regardless of such, I hope she's okay now.
+Also if you're reading this, I hope you're doing alright! Don't be afriad to take breaks when needed, and make sure you're drinking appropriate
+amounts of water!-->
 </body>
 </html>
